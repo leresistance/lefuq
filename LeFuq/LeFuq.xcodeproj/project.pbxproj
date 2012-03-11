@@ -416,8 +416,7 @@
 		8A904C4D150D604D00909CC0 /* LeFuq */ = {
 			isa = PBXGroup;
 			children = (
-				8A904D9F150D604F00909CC0 /* AppDelegate.h */,
-				8A904DA0150D604F00909CC0 /* AppDelegate.m */,
+				8A904DAE150D622C00909CC0 /* Classes */,
 				8A904DA2150D604F00909CC0 /* RootViewController.h */,
 				8A904DA3150D604F00909CC0 /* RootViewController.m */,
 				8A904DA5150D604F00909CC0 /* HelloWorldLayer.h */,
@@ -756,6 +755,71 @@
 				8A904D9D150D604F00909CC0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A904DAE150D622C00909CC0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A904DB5150D627200909CC0 /* Constants */,
+				8A904DB4150D626900909CC0 /* Scenes */,
+				8A904DB3150D626200909CC0 /* Layers */,
+				8A904DB2150D625300909CC0 /* GameObjects */,
+				8A904DB1150D624900909CC0 /* EnemyObjects */,
+				8A904DB0150D624000909CC0 /* PowerUps */,
+				8A904DAF150D623600909CC0 /* Singletons */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8A904DAF150D623600909CC0 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				8A904D9F150D604F00909CC0 /* AppDelegate.h */,
+				8A904DA0150D604F00909CC0 /* AppDelegate.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		8A904DB0150D624000909CC0 /* PowerUps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PowerUps;
+			sourceTree = "<group>";
+		};
+		8A904DB1150D624900909CC0 /* EnemyObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = EnemyObjects;
+			sourceTree = "<group>";
+		};
+		8A904DB2150D625300909CC0 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		8A904DB3150D626200909CC0 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		8A904DB4150D626900909CC0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		8A904DB5150D627200909CC0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
